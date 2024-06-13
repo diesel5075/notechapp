@@ -1,0 +1,141 @@
+
+$('#slider-1').owlCarousel({
+    loop:true,
+    margin:0,
+    responsiveClass:true,
+    items:1,
+    nav:true,
+    autoplay:true,
+    smartSpeed:1000,
+   
+})
+$('#slider-2').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:false,
+    autoplayTimeout:1000,
+    // items:3,
+    responsive:{
+        0:{
+            items:1
+        },
+        769:{
+            items:2
+        },
+        1200:{
+            items:3
+        }
+    }
+})
+$('#services').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:1000,
+    center:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+$('#workslider').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    smartSpeed:1000,
+  dots:false,
+    items:3,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+$('#profile').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    smartSpeed:1000,
+    dots:false,
+    responsive:{
+        0:{
+            items:0
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+$('#our').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    smartSpeed:1000,
+    dots:false,
+    responsive:{
+        0:{
+            items:0
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+
+$('#happening').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    smartSpeed:1000,
+    dots:false,
+    responsive:{
+        0:{
+            items:0
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+$('#busines').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    // autoplay:true,
+    // smartSpeed:1000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
